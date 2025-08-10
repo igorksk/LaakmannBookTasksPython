@@ -26,10 +26,10 @@ def matrix_rotate(matrix):
     return matrix
 
 input_matrix = [
-        [1, 2, 3],
-        [4, 5, 6],
-        [7, 8, 9]
-    ]
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
     
 print("Original matrix:")
 for row in input_matrix:
