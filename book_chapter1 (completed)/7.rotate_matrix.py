@@ -1,5 +1,3 @@
-
-
 def matrix_rotate(matrix):
     """
     Rotate a square matrix 90 degrees clockwise in place.

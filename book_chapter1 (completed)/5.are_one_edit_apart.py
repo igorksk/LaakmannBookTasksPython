@@ -1,5 +1,3 @@
-
-
 def are_one_edit_apart(s1, s2):
     if len(s1) == len(s2):
         return one_replace(s1, s2)

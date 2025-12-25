@@ -1,5 +1,3 @@
-
-
 def is_rotation(s1, s2):
     """
     Check if s2 is a rotation of s1 using only one call to is_substring.

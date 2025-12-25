@@ -1,4 +1,3 @@
-
 def set_zeros(matrix):
     if not matrix or not matrix[0]:
         return
