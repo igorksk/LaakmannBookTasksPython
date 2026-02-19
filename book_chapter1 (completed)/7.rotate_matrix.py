@@ -1,10 +1,11 @@
+"""Chapter 1 - Rotate Matrix
+
+Problem: Rotate an NxN matrix by 90 degrees clockwise in place.
+This module implements `matrix_rotate` which performs the rotation by
+layer-by-layer element swaps.
+"""
+
 def matrix_rotate(matrix):
-    """
-    Rotate a square matrix 90 degrees clockwise in place.
-    
-    :param matrix: List of lists representing the square matrix
-    :return: None, the matrix is modified in place
-    """
     n = len(matrix)
     for layer in range(n // 2): 
         first = layer

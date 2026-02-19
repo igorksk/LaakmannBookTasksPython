@@ -1,3 +1,9 @@
+"""Chapter 1 - Replace Spaces (URLify)
+
+Problem: Replace spaces in a character array with '%20' up to the true
+length of the string. This simulates the URLify operation in-place.
+"""
+
 def replace_spaces(char_array, true_length):
     # Count spaces in the first trueLength characters
     space_count = 0

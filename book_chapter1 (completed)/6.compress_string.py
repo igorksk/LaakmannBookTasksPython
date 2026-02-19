@@ -1,3 +1,10 @@
+"""Chapter 1 - String Compression
+
+Problem: Perform basic string compression using counts of repeated
+characters (e.g., aabcccccaaa -> a2b1c5a3). Return original if compressed
+string is not smaller.
+"""
+
 input_str = input("Enter string: ")
 
 def compress_string(s):

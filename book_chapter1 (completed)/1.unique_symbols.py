@@ -1,3 +1,12 @@
+"""Chapter 1 - Unique Characters
+
+Problem: Determine if a string has all unique characters.
+
+This module provides two approaches:
+- `unique_without_data_structures`: O(n^2) pairwise comparison
+- `unique_using_dictionary`: uses a dictionary to detect duplicates
+"""
+
 str = input("Enter string: ")
 
 def unique_without_data_structures(str):

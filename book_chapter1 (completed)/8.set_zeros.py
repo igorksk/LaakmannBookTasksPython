@@ -1,3 +1,10 @@
+"""Chapter 1 - Set Matrix Zeroes
+
+Problem: If an element in an MxN matrix is 0, set its entire row and
+column to 0. This module implements a two-pass approach identifying
+rows and columns to zero out.
+"""
+
 def set_zeros(matrix):
     if not matrix or not matrix[0]:
         return
@@ -24,7 +31,6 @@ def set_zeros(matrix):
         if j in zero_cols:
             for i in range(rows):
                 matrix[i][j] = 0
-
 
 
 input_matrix = [

@@ -1,3 +1,11 @@
+"""Chapter 1 - Check Permutation
+
+Problem: Check whether one string is a permutation of another.
+
+This module implements `check_if_permutations` that compares character
+counts to determine if two strings are permutations of each other.
+"""
+
 str1 = input("Enter string 1: ")
 
 str2 = input("Enter string 2: ")

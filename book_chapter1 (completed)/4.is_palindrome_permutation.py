@@ -1,3 +1,9 @@
+"""Chapter 1 - Palindrome Permutation
+
+Problem: Given a string, check if any permutation of the string is a
+palindrome (ignoring spaces and case).
+"""
+
 str = "Tact Coa"
 
 def is_palindrome_permutation(str):

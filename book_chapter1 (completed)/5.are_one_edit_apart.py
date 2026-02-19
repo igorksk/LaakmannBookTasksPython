@@ -1,3 +1,9 @@
+"""Chapter 1 - One Edit Away
+
+Problem: Check if two strings are one edit (insert, remove, or replace)
+away from each other.
+"""
+
 def are_one_edit_apart(s1, s2):
     if len(s1) == len(s2):
         return one_replace(s1, s2)
