@@ -5,11 +5,15 @@ substring check (i.e., check if s2 is a substring of s1+s1).
 """
 
 def is_rotation(s1, s2):
-    if len(s1) != len(s2) or not s1:
+    if len(s1) != len(s2):
         return False
+    # Two empty strings are rotations of each other
+    if s1 == "" and s2 == "":
+        return True
     return s2 in (s1 + s1)
 
-str1 = "waterbottle";
-str2 = "erbottlewat";
 
-print("Is '{}' a rotation of '{}'? {}".format(str2, str1, is_rotation(str1, str2)))
+if __name__ == "__main__":
+    s1 = "waterbottle"
+    s2 = "erbottlewat"
+    print("Is '{}' a rotation of '{}'? {}".format(s2, s1, is_rotation(s1, s2)))

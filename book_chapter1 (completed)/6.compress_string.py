@@ -5,12 +5,12 @@ characters (e.g., aabcccccaaa -> a2b1c5a3). Return original if compressed
 string is not smaller.
 """
 
-input_str = input("Enter string: ")
-
 def compress_string(s):
+    if not s:
+        return s
+
     compressed = []
     count = 1
-
     for i in range(1, len(s)):
         if s[i] == s[i - 1]:
             count += 1
@@ -24,7 +24,9 @@ def compress_string(s):
     compressed.append(str(count))
 
     compressed_string = ''.join(compressed)
-    
     return compressed_string if len(compressed_string) < len(s) else s
 
-print("Compressed string:", compress_string(input_str))
+
+if __name__ == "__main__":
+    input_str = input("Enter string: ")
+    print("Compressed string:", compress_string(input_str))

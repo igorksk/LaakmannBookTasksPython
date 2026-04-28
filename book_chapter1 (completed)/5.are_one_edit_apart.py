@@ -39,8 +39,7 @@ def one_insert(s1, s2):
             
     return True
 
-str1 = input("Enter string 1: ")
-
-str2 = input("Enter string 2: ")
-
-print("Are the two strings one edit apart?", are_one_edit_apart(str1, str2))
+if __name__ == "__main__":
+    str1 = input("Enter string 1: ")
+    str2 = input("Enter string 2: ")
+    print("Are the two strings one edit apart?", are_one_edit_apart(str1, str2))
